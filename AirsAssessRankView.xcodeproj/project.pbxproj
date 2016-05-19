@@ -15,6 +15,7 @@
 		B6AA3EF91CED993E0083AE49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6AA3EF71CED993E0083AE49 /* LaunchScreen.storyboard */; };
 		B6AA3F041CED993E0083AE49 /* AirsAssessRankViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AA3F031CED993E0083AE49 /* AirsAssessRankViewTests.m */; };
 		B6AA3F0F1CED993E0083AE49 /* AirsAssessRankViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AA3F0E1CED993E0083AE49 /* AirsAssessRankViewUITests.m */; };
+		B6AA3F1E1CED9C5F0083AE49 /* AirsAssessRankView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AA3F1D1CED9C5F0083AE49 /* AirsAssessRankView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B6AA3F0A1CED993E0083AE49 /* AirsAssessRankViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirsAssessRankViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6AA3F0E1CED993E0083AE49 /* AirsAssessRankViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirsAssessRankViewUITests.m; sourceTree = "<group>"; };
 		B6AA3F101CED993E0083AE49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6AA3F1C1CED9C5F0083AE49 /* AirsAssessRankView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirsAssessRankView.h; sourceTree = "<group>"; };
+		B6AA3F1D1CED9C5F0083AE49 /* AirsAssessRankView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirsAssessRankView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				B6AA3EED1CED993E0083AE49 /* AppDelegate.m */,
 				B6AA3EEF1CED993E0083AE49 /* ViewController.h */,
 				B6AA3EF01CED993E0083AE49 /* ViewController.m */,
+				B6AA3F1C1CED9C5F0083AE49 /* AirsAssessRankView.h */,
+				B6AA3F1D1CED9C5F0083AE49 /* AirsAssessRankView.m */,
 				B6AA3EF21CED993E0083AE49 /* Main.storyboard */,
 				B6AA3EF51CED993E0083AE49 /* Assets.xcassets */,
 				B6AA3EF71CED993E0083AE49 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				B6AA3EF11CED993E0083AE49 /* ViewController.m in Sources */,
 				B6AA3EEE1CED993E0083AE49 /* AppDelegate.m in Sources */,
 				B6AA3EEB1CED993E0083AE49 /* main.m in Sources */,
+				B6AA3F1E1CED9C5F0083AE49 /* AirsAssessRankView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

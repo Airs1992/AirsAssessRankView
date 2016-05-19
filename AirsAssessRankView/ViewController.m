@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "AirsAssessRankView.h"
 
 @interface ViewController ()
+
+@property (weak, nonatomic) IBOutlet AirsAssessRankView *starView;
 
 @end
 
@@ -16,12 +19,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    _starView.starNum = 6;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)theRank:(id)sender {
+    NSLog(@"%f",self.starView.rank);
 }
 
 @end
